@@ -7,6 +7,16 @@
 
 import Foundation
 
+struct Sights {
+    let name: String
+    let address: String
+    let rating: Int
+    let Unesko: String
+    let status: ["Sport", "Nuture", "Museum"]
+}
+
+
+
 let cities = ["Москва,Новосибирск,Уфа,Санкт-Петербург"]
 let attractionMoscow = ["Москвовский Метрополитен,Московский Кремль,Красная площадь,Третьяковская галерея,Оружейная палата"]
 let descriptionMoscow = ["Москвовский Метрополитен": [descriptionMM],
